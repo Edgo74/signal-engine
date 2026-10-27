@@ -1,0 +1,21 @@
+{
+  "name": "signal-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "tsx src/scan.ts",
+    "rapport": "tsx src/rapport-cli.ts",
+    "groupes": "tsx src/groupes.ts",
+    "fiches": "tsx src/fiches.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
